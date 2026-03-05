@@ -11,54 +11,30 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Engineering, National University of Singapore, 2017
+* M.S. in Electrical and Computer Engineering  , Hong Kong University of Science and Technology, 2011
+* B.S. in Information Engineering, Xian Jiaotong University, 2009
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2025 - Now: Professor 
+  * Fudan University
+  * Duties includes: Conducting cutting-edge research in reinforcement learning, multi-agent systems and autonomous scientific agents
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2022 - 2025 : Research Scientist
+  * INFtech
+  * Duties included: Led the RL post-training team, driving the development of algorithms and data pipelines for Large Language Models (LLMs), and architecting asynchronous reinforcement learning infrastructure.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 2022 - 2022 : Senior Algorithm Expert 
+  * Bytedance
+  * Duties included: Designed reinforcement learning exploration algorithms to solve the cold-start problem in the advertising system.
+
+* 2019 - 2022 : Algorithm Expert 
+  * ANT Group
+  * Duties included: Engineered RL-based optimization solutions for marketing campaigns and implemented automated resource scaling (autoscaling) systems to enhance operational efficiency.
+
+* 2019 - 2022 : Postdoctoral Fellow
+  * Technion – Israel Institute of Technology
+  * Duties included: Conducted foundational research in multi-agent reinforcement learning (MARL).
+
