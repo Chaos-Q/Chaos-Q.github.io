@@ -1,0 +1,232 @@
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} 
+\usepackage[urlcolor=red, citecolor=green]{hyperref}
+\usepackage{linespacing_fix}
+\usepackage{cite}
+\begin{document}
+\pagenumbering{gobble}
+
+
+
+
+%***"%"后面的所有内容是注释而非代码，不会输出到最后的PDF中
+%***使用本模板，只需要参照输出的PDF，在本文档的相应位置做简单替换即可
+%***修改之后，输出更新后的PDF，只需要点击Overleaf中的“Recompile”按钮即可
+%**********************************姓名********************************************
+\name{屈超}
+%**********************************联系信息****************************************
+%第一个括号里写手机号，第二个写邮箱
+\contactInfo{(+86) 18229018569}{chaoqu.technion@gmail.com}{398773501}
+%**********************************其他信息****************************************
+%在大括号内填写其他信息，最多填写4个，但是如果选择不填信息，
+%那么大括号必须空着不写，而不能删除大括号。
+%\otherInfo后面的四个大括号里的所有信息都会在一行输出
+%如果想要写两行，那就用两次这个指令（\otherInfo{}{}{}{}）即可
+% \otherInfo{性别：男}{籍贯：江南}{}{}
+% \otherInfo{来历：钱钟书《围城》}{}{}{}
+%*********************************照片**********************************************
+%照片需要放到images文件夹下，名字必须是you.jpg，如果不需要照片可以不添加此行命令
+%0.15的意思是，照片的宽度是页面宽度的0.15倍，调整大小，避免遮挡文字
+%\yourphoto{0.15}
+%**********************************正文**********************************************
+
+
+%***大标题，下面有横线做分割
+%***一般的标题有：教育背景，实习（项目）经历，工作经历，自我评价，求职意向，等等
+\section{学术背景}
+
+
+%***********一行子标题**************
+%***第一个大括号里的内容向左对齐，第二个大括号里的内容向右对齐
+%***\textbf{}括号里的字是粗体，\textit{}括号里的字是斜体
+
+\datedsubsection{\textbf{以色列理工学院}，\textit{博士后(ECE), 导师:Shie Mannor}}{2017.12-2018.12}
+\begin{itemize}[parsep=1ex]
+  \item \textbf{研究方向}: Distributional Reinforcement Learning，Multi-Agent Reinforcement Learning
+\end{itemize}
+\datedsubsection{\textbf{新加坡国立大学}，\textit{博士(ME)，导师:许欢}}{2013.08-2017.10}
+
+%***********列举*********************
+%***可添加多个\item，得到多个列举项，类似的也可以用\textbf{}、\textit{}做强调
+\begin{itemize} [parsep=1ex]
+  \item \textbf{研究方向}：Convex optimization, Deep Reinforcement Learning
+\end{itemize}
+
+\datedsubsection{\textbf{佐治亚理工学院}，\textit{访问学生(ISYE)}}{2016.11-2017.10}
+\begin{itemize} [parsep=1ex]
+  \item \textbf{研究方向}：Non-convex Optimization
+\end{itemize}
+
+
+\datedsubsection{\textbf{香港科技大学}，\textit{硕士(ECE)，导师:Bertram Shi}}{2009.09-2011.11}
+\begin{itemize} [parsep=1ex]
+  \item \textbf{研究方向}：Application of Reinforcement Learning in the binocular vergence control system
+\end{itemize}
+
+\datedsubsection{\textbf{西安交通大学}，\textit{学士(信息工程)}}{2005.09-2009.09}
+
+\vspace{4mm}
+
+\section{职业经历}
+
+
+\datedsubsection{\textbf{无限光年}， 负责大模型RL训练}{2022.8- 至今}
+
+\textbf{INF-34B-Chat RL 训练 2023.06 - 2024.07}：
+\begin{itemize}[parsep=0.5ex]
+  \item 2024年7月发布INF-34B Chat模型， 通用能力评测超过同期Qwen1.5 32B、 Yi1.5 34B，垂域（医疗、金融）能力大幅领先Qwen1.5 32B、 Yi1.5 34B。\href{https://github.com/infly-ai/INF-LLM/}{INF-34B Technical Report 链接。}
+% 使用(Group Relative) Off-policy REINFORCE 后训练INF-34B 的helpfulness、safety、数学、金融、医疗能力。其中数学、金融、医疗的reward 由verifier获取, helpfulness、safety reward由reward model 打分获取。相对SFT模型，RL模型在数学、金融、医疗指标上绝对提升 $5\%$ 以上，safety绝对提升$7\%$, helpfulness 绝对提升 $3\%$。 \href{https://github.com/infly-ai/INF-LLM/}{INF-34B Technical Report 链接。}
+  \item 构建自动化 LLM RL训练全流程。 
+  % 搭建workflow 串联vllm generation $\rightarrow$reward model inference/verifier$\rightarrow$Megatron-LM training $\rightarrow$ 更新权重并开始重新采样的流程。
+  \item   构建reward model train/test set，训练Helpfulness、Safety reward model。
+  
+\end{itemize}
+
+\textbf{INF-Aspire异步强化学习框架2024.08 - 2025.06}：
+
+\begin{itemize}[parsep=0.5ex]
+  \item 设计全异步RL框架，分离Actor和Learner，使得采样和训练同时进行减少相互依赖，从而让系统能够更高效地适配agent任务执行时间上的差异。 同等资源下和字节VeRL相比训练速度快30$\%$。
+  \item 使用RDMA + RoCE v2的方式高速更新模型权重。
+  \item 包含多种reward以及路由机制, 支持agent multi-turn训练。
+  \item 算法库支持多种同步异步RL算法。  
+  % \item 系统以非侵入的方式将Megatron-LM 和 vLLM 作为后端，做到及时追踪社区更新。
+  % \item 使用RL训练NL2SQL,提升pass $@1$ 的同时提升 pass$@16$。  \href{https://bird-bench.github.io/} {Brid-Bench Single-model leaderboard} {\color{red} Rank2} （2025.05 - 2025.06） 
+  % \item 逻辑 Zebra logic榜单 85.1 (R1 77.9、O1 87.9) \url{https://huggingface.co/infly/INFLogic-Qwen2.5-32B-RL-Preview}
+  % \item 多模态长思考模型   \href{https://tiger-ai-lab.github.io/VL-Rethinker/} {VL-rethinker-7B/72B}。
+ 
+\end{itemize}
+
+
+\textbf{Public Benchmark Achievements}
+\begin{itemize}[parsep=0.5ex]
+  \item INF-ORM-Llama3.1-70B在\href{https://huggingface.co/spaces/allenai/reward-bench}{Reward-Bench} 排行榜上位列 {\color{red} 第一}。
+    \item Infly-RL-SQL-32B在 \href{https://bird-bench.github.io/} {Brid-Bench Single-model leaderboard} 排行榜上位列开源模型 {\color{red}第一} 。
+\item  \href{https://tiger-ai-lab.github.io/VL-Rethinker/}{VL-rethinker-72B}在  \href{https://mathvista.github.io/} {MathVista} ， \href{https://mathverse-cuhk.github.io/}{MathVerse}排行榜上均位列开源模型{\color{red}第一} （2025-04-10），在 \href{https://mathllm.github.io/mathvision/}{MathVision}排行榜上排名 {\color{red}第二} （2025-03-25）。
+    
+\end{itemize}
+
+
+
+
+
+\datedsubsection{\textbf{字节跳动}，Ads Core， 广告算法工程师 3-1}{2022.01 - 2022.08}
+\begin{itemize}[parsep=0.5ex]
+    \item 使用neural bandit解决广告系统exploration-exploitation问题。 降低冷启动boost预算消耗 $50\%$的同时提升大盘广告主价值$0.8\%$。
+\end{itemize}
+
+
+
+
+\datedsubsection{\textbf{蚂蚁集团}，CTO线，算法专家 p7}{2018.12 - 2021.12}
+\begin{itemize}[parsep=0.5ex]
+  \item 天机镜项目-收银台红包定价。 天机镜项目组入围2020superMa大奖提名。
+  \item 借呗利率竞价。优化蚂蚁借呗利率策略，提升借呗市场占有率。
+  \item 集群自动扩缩容。 使用meta model-based rl为多个集群进行计算资源分配操作，控制蚂蚁计算资源分配使其达到预设的利用率。   绿色技术减碳大项目组获2022superMa大奖。
+\end{itemize}
+
+
+\section{学术成果}
+\subsection{近五年一作、共同一作及通讯作者。 $^\#$表示共一，$^*$ 表示通讯作者。 }
+
+\begin{enumerate}
+
+       \item AURORA: Automated Training Framework of Universal Process Reward
+Models via Ensemble Prompting and Reverse Verification. Xiaoyu Tan$^\#$, Tianchu Yao$^\#$, \textbf{Chao Qu} $^\#$, Bin Li, Minghao Yang, Dakuan Lu, Haozhe Wang,Xihe Qiu$^*$, Wei Chu, Yinghui Xu , Yuan Qi.  KDD2026.
+
+    \item Constraints-Guided Diffusion Reasoner for Neuro-Symbolic Learning.
+    Xuan Zhang, Zhijian Zhou , Weidi Xu, Yanting Miao, \textbf{Chao Qu}$^*$, Yuan Qi$^*$.   AAAI 2026
+
+
+    \item Count counts: motivating exploration in llm reasoning with count-based intrinsic rewards. \\ Xuan Zhang, Ruixiao Li, Zhijian Zhou, Long Li, Yulei Qin, Ke Li, Xing Sun, Xiaoyu Tan, \textbf{Chao Qu} $^*$, Yuan Qi$^*$. ICLR 2026
+    \item The Choice of Divergence: A Neglected Key to Mitigating Diversity Collapse in Reinforcement Learning with Verifiable Reward. \\ Long Li $^\#$, Zhijian Zhou $^\#$, Jiaran Hao, Jason Klein Liu, Yanting Miao, Wei Pang, Xiaoyu Tan, Wei Chu, Zhe Wang, Shirui Pan, \textbf{Chao Qu} $^*$, Yuan Qi$^*$. ICLR2026
+
+    \item Equivariant Masked Position Prediction for Efficient Molecular Representation. \\ Junyi An$^\#$, \textbf{Chao Qu}$^\#$, Yun-Fei Shi, XinHao Liu, Qianwei Tang, Fenglei Cao, Yuan Qi. ICLR 2025
+    \item Subequivariant Reinforcement Learning Framework for Coordinated Motion Control. \\ Haoyu Wang, Xiaoyu Tan, Xihe Qiu$^*$, \textbf{Chao Qu}$^*$. ICRA2024
+    \item Model-Based Off-Policy Deep Reinforcement Learning With Model-Embedding. \\ Xiaoyu Tan$^\#$, \textbf{Chao Qu} $^\#$, Junwu Xiong, James Zhang, Xihe Qiu, Yaochu Jin. IEEE Transactions on Emerging Topics in Computational Intelligence.
+    \item Hybrid Directional Graph Neural Network for Molecules.\\  Junyi An , \textbf{Chao Qu}$^*$, Zhipeng Zhou, Fenglei Cao, Yinghui Xu, Yuan Qi, Furao Shen. ICLR 2024  {\color{red}( spotlight top 5$\%$)}
+
+    \item Adaptive Learning on User Segmentation: Universal to Specific Representation via Bipartite Neural Interaction. Xiaoyu Tan $^\#$, Yongxin Deng $^\#$, \textbf{Chao Qu}$^\#$, Siqiao Xue, Xiaoming Shi, James Zhang, Xihe Qiu. Sigir-AP 2024.
+
+    \item ILTS: Inducing Intention Propagation in Decentralized Multi-Agent Tasks with Large Language Models. Xihe Qiu, Haoyu Wang, Xiaoyu Tan $^*$, \textbf{Chao Qu} $^*$. CIKM 2024
+    
+    \item Bellman Meets Hawkes: Model-Based Reinforcement Learning via Temporal Point Processes. \\ \textbf{Chao Qu}$^\#$, Xiaoyu Tan$^\#$, Siqiao Xue, Xiaoming Shi, James Zhang, Hongyuan Mei. AAAI 2023
+
+    \item A Meta Reinforcement Learning Approach for Predictive Autoscaling in the Cloud. \\ Siqiao Xue$^\#$,  \textbf{Chao Qu}$^\#$ , Xiaoming Shi, Cong Liao, Shiyi Zhu, Xiaoyu Tan, Lintao Ma, Shiyu Wang, Shijun Wang, Yun Hu, Lei Lei, Yangfei Zheng, Jianguo Li, James Zhang.  KDD 2022
+
+ 
+
+    
+
+    
+\end{enumerate}
+
+\small
+\subsection{其他论文}
+\begin{enumerate}
+    \item Equivariant Spherical Transformer for Efficient Molecular Modeling.  Junyi An, Xinyu Lu, \textbf{Chao Qu}$^*$, Yun-Fei Shi, Peijia Lin, Qianwei Tang, Li-Cheng Xu, Fenglei Cao $^*$,Yuan Qi $^*$. https://arxiv.org/pdf/2505.23086v2. Submitted to Neurips 2025
+    \item Guiding Diffusion Models with Reinforcement Learning for Stable Molecule Generation. 
+    Zhijian Zhou,  Junyi An, Zongkai Liu, Yun-Fei Shi, Xuan Zhang, Fenglei Cao,  \textbf{Chao Qu}$^*$, Yuan Qi$^*$. https://arxiv.org/pdf/2508.16521. Submitted to Neurips 2025
+
+
+    \item SCP-116K: A High-Quality Problem-Solution Dataset and a Generalized Pipeline for Automated Extraction in the Higher Education Science Domain. Dakuan Lu, Xiaoyu Tan, Rui Xu, Tianchu Yao, \textbf{Chao Qu}$^*$, Wei Chu, Yinghui Xu, Yuan Qi. https://arxiv.org/pdf/2501.15587v2
+
+    
+    \item Uni-cot: Towards Unified Chain-of-Thought Reasoning Across Text and Vision. \\Luozheng Qin, Jia Gong, Yuqing Sun, Tianjiao Li, Mengping Yang, Xiaomeng Yang, \textbf{Chao Qu}, Zhiyu Tan, Hao Li. ICLR2026
+    \item VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning. \\ Haozhe Wang, \textbf{Chao Qu}, Zuming Huang, Wei Chu, Fangzhen Lin, Wenhu Chen. Neurips 2025.
+    \item Atomic Thinking of LLMs: Decoupling and Exploring Mathematical Reasoning Abilities. Jiayi Kuang, Haojing Huang, Yinghui Li, Xinnian Liang, Zhikun Xu, Yangning Li, Xiaoyu Tan, \textbf{Chao Qu}, Meishan Zhang, Ying Shen, Philip S Yu. Neurips 2025. 
+    \item MVP-LLMs:Optimizing Intervention Timing and Subsequent Decision Support for Mechanical Ventilation Parameter Control Using Large Language Models. \\ Teqi Hao, Xiaoyu Tan, Bin Li, Xuemin Wang, \textbf{Chao Qu}, Yinghui Xu, Xihe Qiu. MICCAI 2025
+    \item Prolog-Driven Rule-Based Diagnostics with Large Language Models for Precise Clinical Decision Support. \\ Xiaoyu Tan, Bin Li, Weidi Xu, \textbf{Chao Qu}, Wei Chu, Yinghui Xu, Yuan Qi, Xihe Qiu. MICCAI 2025
+    \item Learning Autonomous Code Integration for Math Language Models.\\ Haozhe Wang, Long Li, \textbf{Chao Qu}, Fengming Zhu, Weidi Xu, Wei Chu, Fangzhen Lin. ACL2025 Findings
+
+    \item Meta-Agent-Workflow: Streamlining Tool Usage in LLMs through Workflow Construction, Retrieval, and Refinement. Xiaoyu Tan, Bin Li, Xihe Qiu, \textbf{Chao Qu}, Wei Chu, Yinghui Xu, Yuan Qi.  WWW2025
+
+    \item One example shown, many concepts known! counterexample-driven conceptual reasoning in mathematical llms.\\ Yinghui Li, Jiayi Kuang, Haojing Huang, Zhikun Xu, Xinnian Liang, Yi Yu, Wenlian Lu, Yangning Li, Xiaoyu Tan, \textbf{Chao Qu}, Ying Shen, Hai-Tao Zheng, Philip S Yu. \textbf{\textit{ICML 2025}}
+    \item Refine Knowledge of Large Language Models via Adaptive Contrastive Learning. \\ Yinghui Li, Haojing Huang, Jiayi Kuang, Yangning Li, Shu-Yu Guo, \textbf{Chao Qu}, Xiaoyu Tan, Hai-Tao Zheng, Ying Shen, Philip S. Yu. \textbf{\textit{ICLR 2025}}
+    \item ULMR: Unlearning Large Language Models via Negative Response and Model Parameter Average. \\ Shaojie Shi, Xiaoyu Tan, Xihe Qiu, \textbf{Chao Qu}, Kexin Nie, Yuan Cheng, Wei Chu, Xu Yinghui, Yuan Qi. EMNLP 2024 (Industry track)
+    \item Cognidual framework: Self-training large language models within a dual-system theoretical framework for improving cognitive tasks. \\ Yongxin Deng, Xihe Qiu, Xiaoyu Tan, \textbf{Chao Qu}, Jing Pan, Yuan Cheng, Yinghui Xu, Wei Chu. ICASSP 2025
+    \item LogicMP: A Neuro-symbolic Approach for Encoding First-order Logic Constraints. \\  Weidi Xu, Jingwei Wang, Lele Xie, Jianshan He, Hongting Zhou, Taifeng Wang, Xiaopei Wan, Jingdong Chen, \textbf{Chao Qu}, Wei Chu. \textbf{\textit{ICLR 2024}}
+    \item Self-Criticism: Aligning Large Language Models with their Understanding of Helpfulness, Honesty, and Harmlessness. \\ Xiaoyu Tan, Shaojie Shi, Xihe Qiu, \textbf{Chao Qu}, Zhenting Qi, Yinghui Xu, Yuan Qi. EMNLP 2023 (Industry Track)
+    \item PILLOW: Enhancing Efficient Instruction Fine-tuning via Prompt Matching. \\ Zhenting Qi, Xiaoyu Tan, Shaojie Shi, \textbf{Chao Qu}, Yinghui Xu, Yuan Qi. EMNLP2023 (Industry track)
+    \item Gram-based Attentive Neural Ordinary Differential Equations Network for Video Nystagmography Classification. \\ Xihe Qiu, Shaojie Shi, Xiaoyu Tan, \textbf{Chao Qu}, Zhijun Fang, Hailing Wang, Yongbin Gao, Peixia Wu, Huawei Li. ICCV 2023
+    \item SaFER: A Robust and Efficient Framework for Fine-tuning BERT-based Classifier with Noisy Labels. \\ Zhenting Qi, Xiaoyu Tan, \textbf{Chao Qu}, Yinghui Xu and Yuan Qi. ACL 2023 (Industry track)
+    \item Provably Invariance Learning without Domain Information. \\  Xiaoyu Tan, LIN Yong, Shengyu Zhu, \textbf{Chao Qu}, Xihe Qiu, Xu Yinghui, Peng Cui, Yuan Qi. \textbf{\textit{ICML 2023}}
+
+
+    \item Value Propagation for Decentralized Networked Deep Multi-agent Reinforcement Learning. \\ \textbf{Chao Qu}, Shie Mannor, Huan Xu, Junwu Xiong, Yuan Qi, Le Song. \textbf{\textit{Neurips 2019}} 
+    \item Nonlinear Distributional Gradient Temporal-Difference Learning. \\ \textbf{Chao Qu}, Shie Mannor, Huan Xu. \textbf{\textit{ICML  2019}}
+    \item Non-convex Conditional Gradient Sliding. \\ \textbf{Chao Qu}, Yan Li, Huan Xu. \textbf{\textit{ICML 2018}} {\color{red}(Oral)}
+    \item Fast Rate Analysis of Some Stochastic Optimization Algorithms. \\ \textbf{Chao Qu}, Chongjing Ong, Huan Xu. \textbf{\textit{ICML  2016}} {\color{red}(Oral)}
+    \item Subspace Clustering with Irrelevant Features via Robust Dantzig Selector. \\ \textbf{Chao Qu}, Huan Xu. \textbf{\textit{Neurips 2015}} 
+\end{enumerate}
+%\normalsize
+\small
+
+
+\section{专利}
+% 1. 一种目标用户的选择方法和装置 \\
+% 2.基于最小化Wasserstein距离的分布近似\\
+% 3.s2vg在Model Switch of Attention 资金智能定价方案定价中使用\\
+
+1. 获取资源分配模型的方法、资源分配方法及对应装置 \\
+CN115118780A （已授权） \\
+屈超; 詹姆士·张; 胡韵; 郑洋飞; 熊君武; 雷磊\\
+2. 一种训练推荐模型的方法和系统 \\
+CN111311384A \\
+谭晓宇; 屈超; 蒋才高; 徐海瑞; 熊君武; 詹姆士·张\\
+3. 一种目标用户的选择方法和装置\\
+CN111027676A\\
+李晨晨; 阎翔; 乔俊龙; 屈超; 熊君武; 宋乐
+
+\section{学术会议报告}
+ICML2016 口头报告，ICML2018 口头报告，ICLR 2024 spotlight，2017年美国西北大学工业工程系研讨会报告
+
+\section{学术服务}
+
+Reviewer: ICML 2018-2024、 Neurips 2017 -2025、 ICLR 2024-2025
+% 5.Model Switch of Attention 资金智能定价方案\\
+% 6.结合置信区间上届的二次规划算法在返佣利率定价中的应用\\
+% 7.表示强化学习在动态定价中的应用\\
+
+\section{技能}
+Pytorch、Tensorflow、Python、Megatron
+\end{document}
