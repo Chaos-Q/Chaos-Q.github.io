@@ -5,9 +5,9 @@ category: conferences
 permalink: /publication/2015-subspace-clustering
 excerpt: 'NeurIPS 2015'
 date: 2015-12-01
-venue: 'NeurIPS 2015'
+venue: 'Conference on Neural Information Processing Systems (NeurIPS), 2015'
 paperurl: ''
-citation: '<b>Chao Qu</b>, Huan Xu. NeurIPS 2015.'
+citation: '<b>Chao Qu</b>, Huan Xu. Conference on Neural Information Processing Systems (NeurIPS), 2015.'
 ---
 
 **Chao Qu**, Huan Xu

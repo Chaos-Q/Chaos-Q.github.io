@@ -5,9 +5,9 @@ category: conferences
 permalink: /publication/2023-bellman-meets-hawkes
 excerpt: 'AAAI 2023'
 date: 2023-02-01
-venue: 'AAAI 2023'
+venue: 'AAAI Conference on Artificial Intelligence (AAAI), 2023'
 paperurl: ''
-citation: '<b>Chao Qu</b><sup>#</sup>, Xiaoyu Tan<sup>#</sup>, Siqiao Xue, Xiaoming Shi, James Zhang, Hongyuan Mei. AAAI 2023.'
+citation: '<b>Chao Qu</b><sup>#</sup>, Xiaoyu Tan<sup>#</sup>, Siqiao Xue, Xiaoming Shi, James Zhang, Hongyuan Mei. AAAI Conference on Artificial Intelligence (AAAI), 2023.'
 ---
 
 **Chao Qu**<sup>#</sup>, Xiaoyu Tan<sup>#</sup>, Siqiao Xue, Xiaoming Shi, James Zhang, Hongyuan Mei

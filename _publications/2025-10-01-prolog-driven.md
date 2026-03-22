@@ -5,9 +5,9 @@ category: conferences
 permalink: /publication/2025-prolog-driven
 excerpt: 'MICCAI 2025'
 date: 2025-10-01
-venue: 'MICCAI 2025'
+venue: 'International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2025'
 paperurl: ''
-citation: 'Xiaoyu Tan, Bin Li, Weidi Xu, <b>Chao Qu</b>, Wei Chu, Yinghui Xu, Yuan Qi, Xihe Qiu. MICCAI 2025.'
+citation: 'Xiaoyu Tan, Bin Li, Weidi Xu, <b>Chao Qu</b>, Wei Chu, Yinghui Xu, Yuan Qi, Xihe Qiu. International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2025.'
 ---
 
 Xiaoyu Tan, Bin Li, Weidi Xu, **Chao Qu**, Wei Chu, Yinghui Xu, Yuan Qi, Xihe Qiu

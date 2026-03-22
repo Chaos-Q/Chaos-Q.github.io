@@ -5,9 +5,9 @@ category: conferences
 permalink: /publication/2025-cognidual-framework
 excerpt: 'ICASSP 2025'
 date: 2025-04-01
-venue: 'ICASSP 2025'
+venue: 'IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2025'
 paperurl: ''
-citation: 'Yongxin Deng, Xihe Qiu, Xiaoyu Tan, <b>Chao Qu</b>, Jing Pan, Yuan Cheng, Yinghui Xu, Wei Chu. ICASSP 2025.'
+citation: 'Yongxin Deng, Xihe Qiu, Xiaoyu Tan, <b>Chao Qu</b>, Jing Pan, Yuan Cheng, Yinghui Xu, Wei Chu. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2025.'
 ---
 
 Yongxin Deng, Xihe Qiu, Xiaoyu Tan, **Chao Qu**, Jing Pan, Yuan Cheng, Yinghui Xu, Wei Chu

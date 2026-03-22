@@ -5,9 +5,9 @@ category: conferences
 permalink: /publication/2023-self-criticism
 excerpt: 'EMNLP 2023 (Industry track)'
 date: 2023-12-01
-venue: 'EMNLP 2023 (Industry track)'
+venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023, Industry Track'
 paperurl: ''
-citation: 'Xiaoyu Tan, Shaojie Shi, Xihe Qiu, <b>Chao Qu</b>, Zhenting Qi, Yinghui Xu, Yuan Qi. EMNLP 2023.'
+citation: 'Xiaoyu Tan, Shaojie Shi, Xihe Qiu, <b>Chao Qu</b>, Zhenting Qi, Yinghui Xu, Yuan Qi. Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023, Industry Track.'
 ---
 
 Xiaoyu Tan, Shaojie Shi, Xihe Qiu, **Chao Qu**, Zhenting Qi, Yinghui Xu, Yuan Qi

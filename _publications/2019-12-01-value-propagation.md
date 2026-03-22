@@ -5,9 +5,9 @@ category: conferences
 permalink: /publication/2019-value-propagation
 excerpt: 'NeurIPS 2019'
 date: 2019-12-01
-venue: 'NeurIPS 2019'
+venue: 'Conference on Neural Information Processing Systems (NeurIPS), 2019'
 paperurl: ''
-citation: '<b>Chao Qu</b>, Shie Mannor, Huan Xu, Junwu Xiong, Yuan Qi, Le Song. NeurIPS 2019.'
+citation: '<b>Chao Qu</b>, Shie Mannor, Huan Xu, Junwu Xiong, Yuan Qi, Le Song. Conference on Neural Information Processing Systems (NeurIPS), 2019.'
 ---
 
 **Chao Qu**, Shie Mannor, Huan Xu, Junwu Xiong, Yuan Qi, Le Song

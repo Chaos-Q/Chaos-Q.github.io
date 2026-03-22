@@ -7,7 +7,7 @@ excerpt: 'IEEE Transactions on Emerging Topics in Computational Intelligence'
 date: 2024-01-01
 venue: 'IEEE Transactions on Emerging Topics in Computational Intelligence'
 paperurl: ''
-citation: 'Xiaoyu Tan<sup>#</sup>, <b>Chao Qu</b><sup>#</sup>, Junwu Xiong, James Zhang, Xihe Qiu, Yaochu Jin. IEEE TETCI.'
+citation: 'Xiaoyu Tan<sup>#</sup>, <b>Chao Qu</b><sup>#</sup>, Junwu Xiong, James Zhang, Xihe Qiu, Yaochu Jin. IEEE Transactions on Emerging Topics in Computational Intelligence.'
 ---
 
 Xiaoyu Tan<sup>#</sup>, **Chao Qu**<sup>#</sup>, Junwu Xiong, James Zhang, Xihe Qiu, Yaochu Jin

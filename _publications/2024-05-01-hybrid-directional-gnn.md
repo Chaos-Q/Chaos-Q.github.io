@@ -5,9 +5,9 @@ category: conferences
 permalink: /publication/2024-hybrid-directional-gnn
 excerpt: 'ICLR 2024 (Spotlight, top 5%)'
 date: 2024-05-01
-venue: 'ICLR 2024 (Spotlight, top 5%)'
+venue: 'International Conference on Learning Representations (ICLR), 2024, Spotlight (top 5%)'
 paperurl: ''
-citation: 'Junyi An, <b>Chao Qu</b><sup>*</sup>, Zhipeng Zhou, Fenglei Cao, Yinghui Xu, Yuan Qi, Furao Shen. ICLR 2024 (Spotlight, top 5%).'
+citation: 'Junyi An, <b>Chao Qu</b><sup>*</sup>, Zhipeng Zhou, Fenglei Cao, Yinghui Xu, Yuan Qi, Furao Shen. International Conference on Learning Representations (ICLR), 2024, Spotlight (top 5%).'
 ---
 
 Junyi An, **Chao Qu**<sup>*</sup>, Zhipeng Zhou, Fenglei Cao, Yinghui Xu, Yuan Qi, Furao Shen
