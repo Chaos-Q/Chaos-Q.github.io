@@ -1,0 +1,31 @@
+{% assign venue = include.venue | strip %}
+{% case venue %}
+{% when 'ICLR 2026' %}International Conference on Learning Representations (ICLR), 2026
+{% when 'ICLR 2025' %}International Conference on Learning Representations (ICLR), 2025
+{% when 'ICLR 2024' %}International Conference on Learning Representations (ICLR), 2024
+{% when 'ICLR 2024 (Spotlight, top 5%)' %}International Conference on Learning Representations (ICLR), 2024, Spotlight (top 5%)
+{% when 'ICML 2025' %}International Conference on Machine Learning (ICML), 2025
+{% when 'ICML 2023' %}International Conference on Machine Learning (ICML), 2023
+{% when 'ICML 2019' %}International Conference on Machine Learning (ICML), 2019
+{% when 'ICML 2018' %}International Conference on Machine Learning (ICML), 2018
+{% when 'ICML 2016' %}International Conference on Machine Learning (ICML), 2016
+{% when 'NeurIPS 2025' %}Conference on Neural Information Processing Systems (NeurIPS), 2025
+{% when 'NeurIPS 2019' %}Conference on Neural Information Processing Systems (NeurIPS), 2019
+{% when 'NeurIPS 2015' %}Conference on Neural Information Processing Systems (NeurIPS), 2015
+{% when 'ACL 2025 Findings' %}Findings of the Association for Computational Linguistics (ACL Findings), 2025
+{% when 'ACL 2023 (Industry track)' %}Annual Meeting of the Association for Computational Linguistics (ACL), 2023, Industry Track
+{% when 'EMNLP 2024 (Industry track)' %}Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024, Industry Track
+{% when 'EMNLP 2023 (Industry track)' %}Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023, Industry Track
+{% when 'AAAI 2026' %}AAAI Conference on Artificial Intelligence (AAAI), 2026
+{% when 'AAAI 2023' %}AAAI Conference on Artificial Intelligence (AAAI), 2023
+{% when 'KDD 2026' %}ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026
+{% when 'KDD 2022' %}ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2022
+{% when 'ICCV 2023' %}IEEE/CVF International Conference on Computer Vision (ICCV), 2023
+{% when 'ICASSP 2025' %}IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2025
+{% when 'WWW 2025' %}The Web Conference (WWW), 2025
+{% when 'MICCAI 2025' %}International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2025
+{% when 'CIKM 2024' %}ACM International Conference on Information and Knowledge Management (CIKM), 2024
+{% when 'SIGIR-AP 2024' %}International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR-AP), 2024
+{% when 'ICRA 2024' %}IEEE International Conference on Robotics and Automation (ICRA), 2024
+{% else %}{{ venue }}
+{% endcase %}
