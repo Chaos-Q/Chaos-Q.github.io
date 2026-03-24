@@ -19,7 +19,7 @@ Work experience
 ======
 * 2025 - Now: Professor 
   * Fudan University
-  * Duties includes: Conducting cutting-edge research in reinforcement learning, multi-agent systems and autonomous scientific agents
+  * Duties includes: Conducting cutting-edge research in reinforcement learning, multi-agent systems and autonomous scientific agents.
 
 * 2022 - 2025 : Research Scientist
   * INFtech
@@ -34,7 +34,7 @@ Work experience
   * ANT Group
   * Duties included: Engineered RL-based optimization solutions for marketing campaigns and implemented automated resource scaling (autoscaling) systems to enhance operational efficiency.
 
-* 2019 - 2022 : Postdoctoral Fellow
+* 2017 - 2018 : Postdoctoral Fellow
   * Technion – Israel Institute of Technology
   * Duties included: Conducted foundational research in multi-agent reinforcement learning (MARL).
 
