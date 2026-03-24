@@ -7,7 +7,7 @@ excerpt: 'Technical Report'
 date: 2024-07-19
 venue: 'INF Technology Technical Report, 2024'
 paperurl: '/files/inf_34b_tech_report.pdf'
-citation: 'INFteam. INF Technology Technical Report, 2024.'
+citation: 'Jiaran Hao, Zili Wang, Siming Huang, Tianhao Cheng, LiuYihan Song, Ansheng You, Zhipeng Zhou, Xiaoyu Tan, Dakuan Lu, Xiaoming Shi, <b>Chao Qu</b>, Haozhe Wang, Yinghui Xu, Wei Chu, Yuan Qi'
 ---
 
 Jiaran Hao, Zili Wang, Siming Huang, Tianhao Cheng, LiuYihan Song, Ansheng You, Zhipeng Zhou, Xiaoyu Tan, Dakuan Lu, Xiaoming Shi, **Chao Qu**, Haozhe Wang, Yinghui Xu, Wei Chu, Yuan Qi

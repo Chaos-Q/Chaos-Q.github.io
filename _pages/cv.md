@@ -17,7 +17,7 @@ Education
 
 Work experience
 ======
-* 2025 - Now: Professor 
+* 2025.11 - Now: Professor 
   * Fudan University
   * Duties includes: Conducting cutting-edge research in reinforcement learning, multi-agent systems and autonomous scientific agents.
 
