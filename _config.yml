@@ -24,9 +24,9 @@ repository               : "Chaos-Q/Chaos-Q.github.io"
 author:
   # Biographic information
   avatar           : "chao.jpg"
-  name             : "Your Sidebar Name"
+  name             : "Chao Qu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Professor at Fudan University. Researching reinforcement learning, foundation models, and AI for Science."
   location         : "Earth"
   employer         : "Fudan University"
   uri              : # URL
