@@ -23,6 +23,29 @@ My long-term goal is to develop **"general-purpose autonomous agents"** capable 
 
 ---
 
+## Group Members
+
+### Ph.D. Students
+
+* **[Zhijian Zhou](https://zhijianzhou.github.io/)** — Reinforcement learning, multi-agent RL for LLMs, and LLM RL infrastructure.
+* **Xuan Zhang** — Deep exploration in RL for LLMs and world models.
+* **Yuchen Liu** — Memory mechanisms in large language models.
+
+### Master Students
+
+* **Kangcheng Xiao** — Automated research agents.
+* **Ze He** — Text-to-video generation.
+
+### Undergraduate Students
+
+* **Tongjin Zou** — Automated research agents.
+
+### Alumni
+
+* **Long Li** — RL for agents.
+
+---
+
 ## Open Positions
 
 * **Fudan University (Ph.D. / Master / Undergrad):** I am seeking highly motivated full-time and part-time students to join my group at Fudan. If you have a strong background in computer science or mathematics and are passionate about RL, LLMs, or multi-agent systems, please reach out.
