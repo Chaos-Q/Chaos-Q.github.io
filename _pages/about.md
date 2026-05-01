@@ -42,7 +42,7 @@ My long-term goal is to develop **"general-purpose autonomous agents"** capable 
 
 ### Alumni
 
-* **Long Li** — RL for agents.
+* **[Long Li](https://seamoke.github.io/Longli/)** — RL for agents.
 
 ---
 
