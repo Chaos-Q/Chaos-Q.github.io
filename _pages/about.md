@@ -28,7 +28,7 @@ My long-term goal is to develop **"general-purpose autonomous agents"** capable 
 ### Ph.D. Students
 
 * **[Zhijian Zhou](https://zhijianzhou.github.io/)** — Reinforcement learning, multi-agent RL for LLMs, and LLM RL infrastructure.
-* **Xuan Zhang** — Deep exploration in RL for LLMs and world models.
+* **[Xuan Zhang](https://dd88s87.github.io/)** — Deep exploration in RL for LLMs and world models.
 * **Yuchen Liu** — Memory mechanisms in large language models.
 
 ### Master Students
