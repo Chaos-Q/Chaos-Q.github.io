@@ -13,6 +13,12 @@ Prior to my current roles, I gained extensive industry experience serving as the
 
 ---
 
+## CHAOS Lab
+
+**CHAOS Lab** (**Collaborative & Hierarchical Agents for Open-ended Science**) develops general-purpose autonomous agents for reasoning, strategic interaction, and scientific discovery.
+
+---
+
 ## Research Interests
 
 My long-term goal is to develop **"general-purpose autonomous agents"** capable of deep reasoning, strategic interaction, and independent scientific discovery. My current research bridges reinforcement learning, foundation models, and AI for Science, focusing on the following key directions:
