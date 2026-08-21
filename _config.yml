@@ -88,6 +88,8 @@ publication_category:
     title: 'Books'
   techreports:
     title: 'Tech Report'
+  preprints:
+    title: 'Preprints'
   conferences:
     title: 'Conference Papers'
   manuscripts:
