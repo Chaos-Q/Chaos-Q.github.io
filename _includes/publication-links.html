@@ -2,9 +2,11 @@
 {% assign publication_links = site.data.publication_links[publication_key] %}
 {% assign paper_url = include.publication.paperurl | default: publication_links.paper %}
 {% assign github_url = include.publication.codeurl | default: publication_links.github %}
-{% if paper_url or github_url %}
+{% assign huggingface_url = publication_links.huggingface %}
+{% if paper_url or github_url or huggingface_url %}
 <p class="publication-links">
   {% if paper_url %}<a href="{{ paper_url | escape }}">[Paper]</a>{% endif %}
   {% if github_url %}<a href="{{ github_url | escape }}">[Code]</a>{% endif %}
+  {% if huggingface_url %}<a href="{{ huggingface_url | escape }}">[Hugging Face]</a>{% endif %}
 </p>
 {% endif %}

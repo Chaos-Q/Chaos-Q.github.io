@@ -77,6 +77,9 @@
 2026-uni-cot:
   paper: https://arxiv.org/abs/2508.05606
   github: https://github.com/Fr0zenCrane/UniCoT
+2026-suiren-1-0:
+  github: https://github.com/golab-ai/Suiren-Foundation-Model
+  huggingface: https://huggingface.co/ajy112/models
 2026-sql-astra:
   paper: https://arxiv.org/abs/2603.16161
 2026-disppo:
