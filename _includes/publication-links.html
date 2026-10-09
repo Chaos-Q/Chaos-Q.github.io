@@ -4,8 +4,7 @@
 {% assign github_url = include.publication.codeurl | default: publication_links.github %}
 {% if paper_url or github_url %}
 <p class="publication-links">
-  {% if paper_url %}<a href="{{ paper_url | escape }}">Paper</a>{% endif %}
-  {% if paper_url and github_url %}<span aria-hidden="true"> &middot; </span>{% endif %}
-  {% if github_url %}<a href="{{ github_url | escape }}">GitHub</a>{% endif %}
+  {% if paper_url %}<a href="{{ paper_url | escape }}">[Paper]</a>{% endif %}
+  {% if github_url %}<a href="{{ github_url | escape }}">[Code]</a>{% endif %}
 </p>
 {% endif %}

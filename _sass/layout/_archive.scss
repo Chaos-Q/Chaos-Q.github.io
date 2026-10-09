@@ -84,6 +84,40 @@
   }
 }
 
+.publication__item {
+  margin-bottom: 1.5em;
+
+  .archive__item-title {
+    margin: 0 0 0.15em;
+    line-height: 1.3;
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.35;
+  }
+
+  .publication-links {
+    margin-top: 0.15em;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    a + a {
+      margin-left: 0.25em;
+    }
+  }
+
+  &:hover .archive__item-title {
+    text-decoration: none;
+  }
+}
+
 
 /*
    List view
