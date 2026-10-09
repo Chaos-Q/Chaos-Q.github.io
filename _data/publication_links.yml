@@ -83,6 +83,11 @@
   github: https://github.com/ZhijianZhou/Disppo
 2026-nest:
   paper: https://arxiv.org/abs/2605.16447
+2026-internalizing-the-future:
+  github: https://github.com/SII-XuanZhang/wm-training
+2026-trace-grpo:
+  paper: https://openreview.net/forum?id=JzsDINE84X
+  github: https://github.com/Lau-Jonathan/TRACE-GRPO
 2026-start-classifying:
   paper: https://arxiv.org/abs/2608.02181
   github: https://github.com/ZhijianZhou/HL-guass-ppo
