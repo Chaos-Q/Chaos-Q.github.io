@@ -33,6 +33,7 @@
   paper: https://arxiv.org/abs/2403.15100
 2024-inf-34b-open-source-large-language-models:
   github: https://github.com/infly-ai/INF-LLM
+  huggingface: https://huggingface.co/infly/INF-34B-Base
 2024-ilts:
   paper: https://doi.org/10.1145/3627673.3679942
 2024-ulmr:
