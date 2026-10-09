@@ -13,5 +13,3 @@ citation: 'Haoyu Wang, Xiaoyu Tan, Xihe Qiu<sup>*</sup>, <b>Chao Qu</b><sup>*</s
 Haoyu Wang, Xiaoyu Tan, Xihe Qiu<sup>*</sup>, **Chao Qu**<sup>*</sup>
 
 <sup>*</sup> Corresponding author
-
-[PDF] &nbsp;&nbsp; [Code]

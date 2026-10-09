@@ -39,6 +39,7 @@ layout: default
         {% elsif page.collection == 'publications' and page.venue %}
           {% capture display_venue %}{% include venue-name.html venue=page.venue %}{% endcapture %}
           <p><i>{{ display_venue | strip }}</i></p>
+          {% include publication-links.html publication=page %}
         {% elsif page.venue and page.date %}
           <p><i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}

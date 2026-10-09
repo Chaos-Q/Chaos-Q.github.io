@@ -13,5 +13,3 @@ citation: 'Xiaoyu Tan<sup>#</sup>, Yongxin Deng<sup>#</sup>, <b>Chao Qu</b><sup>
 Xiaoyu Tan<sup>#</sup>, Yongxin Deng<sup>#</sup>, **Chao Qu**<sup>#</sup>, Siqiao Xue, Xiaoming Shi, James Zhang, Xihe Qiu
 
 <sup>#</sup> Equal contribution
-
-[PDF] &nbsp;&nbsp; [Code]

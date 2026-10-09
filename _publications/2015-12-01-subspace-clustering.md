@@ -11,5 +11,3 @@ citation: '<b>Chao Qu</b>, Huan Xu. Conference on Neural Information Processing 
 ---
 
 **Chao Qu**, Huan Xu
-
-[PDF] &nbsp;&nbsp; [Code]

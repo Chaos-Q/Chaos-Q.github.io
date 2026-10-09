@@ -13,5 +13,3 @@ citation: 'Xuan Zhang, Ruixiao Li, Zhijian Zhou, Long Li, Yulei Qin, Ke Li, Xing
 Xuan Zhang, Ruixiao Li, Zhijian Zhou, Long Li, Yulei Qin, Ke Li, Xing Sun, Xiaoyu Tan, **Chao Qu**<sup>*</sup>, Yuan Qi<sup>*</sup>
 
 <sup>*</sup> Corresponding author
-
-[PDF] &nbsp;&nbsp; [Code]

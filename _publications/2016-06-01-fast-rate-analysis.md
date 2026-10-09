@@ -13,5 +13,3 @@ citation: '<b>Chao Qu</b>, Chongjing Ong, Huan Xu. International Conference on M
 **Chao Qu**, Chongjing Ong, Huan Xu
 
 🎤 **Oral Presentation**
-
-[PDF] &nbsp;&nbsp; [Code]

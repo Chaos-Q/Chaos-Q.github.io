@@ -11,5 +11,3 @@ citation: 'Yongxin Deng, Xihe Qiu, Xiaoyu Tan, <b>Chao Qu</b>, Jing Pan, Yuan Ch
 ---
 
 Yongxin Deng, Xihe Qiu, Xiaoyu Tan, **Chao Qu**, Jing Pan, Yuan Cheng, Yinghui Xu, Wei Chu
-
-[PDF] &nbsp;&nbsp; [Code]

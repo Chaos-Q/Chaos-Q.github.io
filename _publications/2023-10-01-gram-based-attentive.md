@@ -11,5 +11,3 @@ citation: 'Xihe Qiu, Shaojie Shi, Xiaoyu Tan, <b>Chao Qu</b>, Zhijun Fang, Haili
 ---
 
 Xihe Qiu, Shaojie Shi, Xiaoyu Tan, **Chao Qu**, Zhijun Fang, Hailing Wang, Yongbin Gao, Peixia Wu, Huawei Li
-
-[PDF] &nbsp;&nbsp; [Code]

@@ -11,5 +11,3 @@ citation: 'Jiayi Kuang, Haojing Huang, Yinghui Li, Xinnian Liang, Zhikun Xu, Yan
 ---
 
 Jiayi Kuang, Haojing Huang, Yinghui Li, Xinnian Liang, Zhikun Xu, Yangning Li, Xiaoyu Tan, **Chao Qu**, Meishan Zhang, Ying Shen, Philip S Yu
-
-[PDF] &nbsp;&nbsp; [Code]

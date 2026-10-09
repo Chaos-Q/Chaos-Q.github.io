@@ -11,5 +11,3 @@ citation: 'Yinghui Li, Haojing Huang, Jiayi Kuang, Yangning Li, Shu-Yu Guo, <b>C
 ---
 
 Yinghui Li, Haojing Huang, Jiayi Kuang, Yangning Li, Shu-Yu Guo, **Chao Qu**, Xiaoyu Tan, Hai-Tao Zheng, Ying Shen, Philip S Yu
-
-[PDF] &nbsp;&nbsp; [Code]

@@ -11,5 +11,3 @@ citation: '<b>Chao Qu</b>, Shie Mannor, Huan Xu, Junwu Xiong, Yuan Qi, Le Song. 
 ---
 
 **Chao Qu**, Shie Mannor, Huan Xu, Junwu Xiong, Yuan Qi, Le Song
-
-[PDF] &nbsp;&nbsp; [Code]

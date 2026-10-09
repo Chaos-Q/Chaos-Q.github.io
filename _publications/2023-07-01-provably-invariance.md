@@ -11,5 +11,3 @@ citation: 'Xiaoyu Tan, LIN Yong, Shengyu Zhu, <b>Chao Qu</b>, Xihe Qiu, Xu Yingh
 ---
 
 Xiaoyu Tan, LIN Yong, Shengyu Zhu, **Chao Qu**, Xihe Qiu, Xu Yinghui, Peng Cui, Yuan Qi
-
-[PDF] &nbsp;&nbsp; [Code]

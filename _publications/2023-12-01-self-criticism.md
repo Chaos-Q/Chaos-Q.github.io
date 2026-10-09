@@ -11,5 +11,3 @@ citation: 'Xiaoyu Tan, Shaojie Shi, Xihe Qiu, <b>Chao Qu</b>, Zhenting Qi, Yingh
 ---
 
 Xiaoyu Tan, Shaojie Shi, Xihe Qiu, **Chao Qu**, Zhenting Qi, Yinghui Xu, Yuan Qi
-
-[PDF] &nbsp;&nbsp; [Code]

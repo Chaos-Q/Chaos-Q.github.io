@@ -13,5 +13,3 @@ citation: 'Yuchen Liu, Tianchu Yao, Yinghao Zhang, Xigui Li, Deshu Chen, Zehui L
 Yuchen Liu, Tianchu Yao, Yinghao Zhang, Xigui Li, Deshu Chen, Zehui Ling, Xin Guo, Yuan Cheng, Lintao Ma, **Chao Qu**<sup>*</sup>, Yuan Qi<sup>*</sup>
 
 <sup>*</sup> Corresponding author
-
-[PDF] &nbsp;&nbsp; [Code]

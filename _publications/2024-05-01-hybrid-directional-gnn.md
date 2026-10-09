@@ -15,5 +15,3 @@ Junyi An, **Chao Qu**<sup>*</sup>, Zhipeng Zhou, Fenglei Cao, Yinghui Xu, Yuan Q
 <sup>*</sup> Corresponding author
 
 🏆 **Spotlight (top 5%)**
-
-[PDF] &nbsp;&nbsp; [Code]

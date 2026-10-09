@@ -13,5 +13,3 @@ citation: 'Zhijian Zhou<sup>#</sup>, Long Li<sup>#</sup>, Xuan Zhang, Zongkai Li
 Zhijian Zhou<sup>#</sup>, Long Li<sup>#</sup>, Xuan Zhang, Zongkai Liu, Yulei Qin, Ke Li, Xing Sun, Xiaoyu Tan<sup>*</sup>, **Chao Qu**<sup>*&dagger;</sup>, Yuan Qi<sup>*</sup>
 
 <sup>#</sup> Equal contribution  &nbsp;&nbsp; <sup>*</sup> Corresponding author; <sup>&dagger;</sup> Project lead
-
-[PDF] &nbsp;&nbsp; [Code]

@@ -13,5 +13,3 @@ citation: 'Long Li<sup>#</sup>, Zhijian Zhou<sup>#</sup>, Jiaran Hao, Jason Klei
 Long Li<sup>#</sup>, Zhijian Zhou<sup>#</sup>, Jiaran Hao, Jason Klein Liu, Yanting Miao, Wei Pang, Xiaoyu Tan, Wei Chu, Zhe Wang, Shirui Pan, **Chao Qu**<sup>*</sup>, Yuan Qi<sup>*</sup>
 
 <sup>#</sup> Equal contribution  &nbsp;&nbsp; <sup>*</sup> Corresponding author
-
-[PDF] &nbsp;&nbsp; [Code]

@@ -1,0 +1,86 @@
+2015-subspace-clustering:
+  paper: https://papers.nips.cc/paper/5707-subspace-clustering-with-irrelevant-features-via-robust-dantzig-selector.pdf
+2016-fast-rate-analysis:
+  paper: https://proceedings.mlr.press/v48/qua16.pdf
+2018-nonconvex-conditional:
+  paper: https://proceedings.mlr.press/v80/qu18a.html
+2019-nonlinear-distributional:
+  paper: https://arxiv.org/abs/1805.07732
+2019-value-propagation:
+  paper: https://arxiv.org/abs/1901.09326
+2022-meta-rl-autoscaling:
+  paper: https://arxiv.org/abs/2205.15795
+2023-bellman-meets-hawkes:
+  paper: https://doi.org/10.1609/aaai.v37i8.26142
+2023-provably-invariance:
+  paper: https://proceedings.mlr.press/v202/tan23b.html
+2023-safer:
+  paper: https://aclanthology.org/2023.acl-industry.38/
+2023-gram-based-attentive:
+  paper: https://doi.org/10.1109/ICCV51070.2023.01951
+2023-pillow:
+  paper: https://aclanthology.org/2023.emnlp-industry.45/
+2023-self-criticism:
+  paper: https://aclanthology.org/2023.emnlp-industry.62/
+2024-model-based-offpolicy:
+  paper: https://doi.org/10.1109/TETCI.2024.3369636
+2024-hybrid-directional-gnn:
+  paper: https://openreview.net/forum?id=BBD6KXIGJL
+2024-logicmp:
+  paper: https://openreview.net/forum?id=BLGQ3oqldb
+  github: https://github.com/wead-hsu/logicmp
+2024-subequivariant-rl:
+  paper: https://arxiv.org/abs/2403.15100
+2024-inf-34b-open-source-large-language-models:
+  github: https://github.com/infly-ai/INF-LLM
+2024-ilts:
+  paper: https://doi.org/10.1145/3627673.3679942
+2024-ulmr:
+  paper: https://aclanthology.org/2024.emnlp-industry.57/
+2024-adaptive-learning-user:
+  paper: https://doi.org/10.1145/3624918.3625323
+2025-cognidual-framework:
+  paper: https://arxiv.org/abs/2409.03381
+2025-equivariant-masked:
+  paper: https://arxiv.org/abs/2502.08209
+  github: https://github.com/ajy112/EMPP
+2025-meta-agent-workflow:
+  paper: https://doi.org/10.1145/3701716.3715247
+  github: https://github.com/testlbin/meta_agent_workflows
+2025-refine-knowledge:
+  paper: https://arxiv.org/abs/2502.07184
+2025-one-example-shown:
+  paper: https://arxiv.org/abs/2502.10454
+  github: https://github.com/THUKElab/COUNTERMATH
+2025-learning-autonomous-code:
+  paper: https://arxiv.org/abs/2502.00691
+2025-mvp-llms:
+  paper: https://doi.org/10.1007/978-3-032-04971-1_43
+2025-prolog-driven:
+  paper: https://doi.org/10.1007/978-3-032-05127-1_40
+2025-atomic-thinking:
+  paper: https://arxiv.org/abs/2509.25725
+2025-vl-rethinker:
+  paper: https://arxiv.org/abs/2504.08837
+  github: https://github.com/TIGER-AI-Lab/VL-Rethinker
+2026-aurora:
+  paper: https://arxiv.org/abs/2502.11520
+2026-constraints-guided-diffusion:
+  paper: https://doi.org/10.1609/aaai.v40i33.40074
+  github: https://github.com/dd88s87/DDReasoner
+2026-choice-of-divergence:
+  paper: https://arxiv.org/abs/2509.07430
+2026-count-counts:
+  paper: https://arxiv.org/abs/2510.16614
+  github: https://github.com/dd88s87/MERCI
+2026-uni-cot:
+  paper: https://arxiv.org/abs/2508.05606
+  github: https://github.com/Fr0zenCrane/UniCoT
+2026-sql-astra:
+  paper: https://arxiv.org/abs/2603.16161
+2026-disppo:
+  github: https://github.com/ZhijianZhou/Disppo
+2026-nest:
+  paper: https://arxiv.org/abs/2605.16447
+2026-start-classifying:
+  paper: https://arxiv.org/abs/2608.02181

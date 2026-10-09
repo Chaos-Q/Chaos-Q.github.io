@@ -11,5 +11,3 @@ citation: 'Jiaran Hao, Zili Wang, Siming Huang, Tianhao Cheng, LiuYihan Song, An
 ---
 
 Jiaran Hao, Zili Wang, Siming Huang, Tianhao Cheng, LiuYihan Song, Ansheng You, Zhipeng Zhou, Xiaoyu Tan, Dakuan Lu, Xiaoming Shi, **Chao Qu**, Haozhe Wang, Yinghui Xu, Wei Chu, Yuan Qi
-
-[PDF](/files/inf_34b_tech_report.pdf){:target="_blank"} [Code](https://github.com/infly-ai/INF-LLM?tab=readme-ov-file){:target="_blank"}

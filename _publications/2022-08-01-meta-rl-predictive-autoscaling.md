@@ -13,5 +13,3 @@ citation: 'Siqiao Xue<sup>#</sup>, <b>Chao Qu</b><sup>#</sup>, Xiaoming Shi, Con
 Siqiao Xue<sup>#</sup>, **Chao Qu**<sup>#</sup>, Xiaoming Shi, Cong Liao, Shiyi Zhu, Xiaoyu Tan, Lintao Ma, Shiyu Wang, Shijun Wang, Yun Hu, Lei Lei, Yangfei Zheng, Jianguo Li, James Zhang
 
 <sup>#</sup> Equal contribution
-
-[PDF] &nbsp;&nbsp; [Code]

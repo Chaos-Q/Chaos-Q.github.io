@@ -13,5 +13,3 @@ citation: '<b>Chao Qu</b>, Yan Li, Huan Xu. International Conference on Machine 
 **Chao Qu**, Yan Li, Huan Xu
 
 🎤 **Oral Presentation**
-
-[PDF] &nbsp;&nbsp; [Code]

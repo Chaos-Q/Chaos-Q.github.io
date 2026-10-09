@@ -11,5 +11,3 @@ citation: '<b>Chao Qu</b>, Shie Mannor, Huan Xu. International Conference on Mac
 ---
 
 **Chao Qu**, Shie Mannor, Huan Xu
-
-[PDF] &nbsp;&nbsp; [Code]

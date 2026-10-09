@@ -13,5 +13,3 @@ citation: '<b>Chao Qu</b><sup>#</sup>, Xiaoyu Tan<sup>#</sup>, Siqiao Xue, Xiaom
 **Chao Qu**<sup>#</sup>, Xiaoyu Tan<sup>#</sup>, Siqiao Xue, Xiaoming Shi, James Zhang, Hongyuan Mei
 
 <sup>#</sup> Equal contribution
-
-[PDF] &nbsp;&nbsp; [Code]

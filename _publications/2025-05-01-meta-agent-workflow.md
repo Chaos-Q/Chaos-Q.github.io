@@ -11,5 +11,3 @@ citation: 'Xiaoyu Tan, Bin Li, Xihe Qiu, <b>Chao Qu</b>, Wei Chu, Yinghui Xu, Yu
 ---
 
 Xiaoyu Tan, Bin Li, Xihe Qiu, **Chao Qu**, Wei Chu, Yinghui Xu, Yuan Qi
-
-[PDF] &nbsp;&nbsp; [Code]

@@ -13,5 +13,3 @@ citation: 'Xuan Zhang, Zhijian Zhou, Weidi Xu, Yanting Miao, <b>Chao Qu</b><sup>
 Xuan Zhang, Zhijian Zhou, Weidi Xu, Yanting Miao, **Chao Qu**<sup>*</sup>, Yuan Qi<sup>*</sup>
 
 <sup>*</sup> Corresponding author
-
-[PDF] &nbsp;&nbsp; [Code]

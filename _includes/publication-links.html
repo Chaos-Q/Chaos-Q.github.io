@@ -1,0 +1,11 @@
+{% assign publication_key = include.publication.permalink | split: '/' | last %}
+{% assign publication_links = site.data.publication_links[publication_key] %}
+{% assign paper_url = include.publication.paperurl | default: publication_links.paper %}
+{% assign github_url = include.publication.codeurl | default: publication_links.github %}
+{% if paper_url or github_url %}
+<p class="publication-links">
+  {% if paper_url %}<a href="{{ paper_url | escape }}">Paper</a>{% endif %}
+  {% if paper_url and github_url %}<span aria-hidden="true"> &middot; </span>{% endif %}
+  {% if github_url %}<a href="{{ github_url | escape }}">GitHub</a>{% endif %}
+</p>
+{% endif %}
