@@ -40,6 +40,9 @@ My long-term goal is to develop **"general-purpose autonomous agents"** capable 
 ### Master Students
 
 * **Kangcheng Xiao** — Automated research agents.
+* **Zhen Yang**
+* **Yizhou Fang**
+* **Menghan Qiao**
 
 ### Undergraduate Students
 
