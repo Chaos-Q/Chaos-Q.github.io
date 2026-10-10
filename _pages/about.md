@@ -40,7 +40,6 @@ My long-term goal is to develop **"general-purpose autonomous agents"** capable 
 ### Master Students
 
 * **Kangcheng Xiao** — Automated research agents.
-* **Ze He** — Text-to-video generation.
 
 ### Undergraduate Students
 
