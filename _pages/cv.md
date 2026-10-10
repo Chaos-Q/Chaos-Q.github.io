@@ -38,3 +38,7 @@ Work experience
   * Technion – Israel Institute of Technology
   * Duties included: Conducted foundational research in multi-agent reinforcement learning (MARL).
 
+Academic Service
+======
+* Conference Program Committee/Reviewer: ICML (2018-present), NeurIPS (2017-present), ICLR (2022-present), AAAI (2021), ACL (2025-present)
+* Area Chair: ICLR (2026)
